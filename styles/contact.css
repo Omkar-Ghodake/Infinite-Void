@@ -1,0 +1,98 @@
+#contactBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.7);
+  z-index: -50;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 2.5rem 4rem;
+  padding-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.488);
+  border-radius: 1rem;
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+}
+
+.horizontal-line {
+  height: 1px;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+}
+
+.brand img {
+  height: 6rem;
+  margin-right: 1rem;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.input-group label {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.input-group input,
+.input-group textarea {
+  font-size: large;
+  /* width: 100%; */
+  border-radius: 2px;
+  padding: 0.5rem;
+  background-color: rgb(82 82 91);
+  border: 1px solid transparent;
+  color: white;
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+  outline: 1px solid hotpink;
+  border: 1px solid hotpink;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: large;
+  border-radius: 8px;
+  outline: none;
+  border: 2px solid hotpink;
+  background-color: transparent;
+  color: hotpink;
+  transition-duration: 250ms;
+}
+
+.submit-btn:hover {
+  background-color: hotpink;
+  color: white;
+}

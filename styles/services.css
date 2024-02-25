@@ -1,0 +1,97 @@
+#services {
+  /* background-color: black;
+  z-index: -50; */
+}
+
+#services .content {
+  display: flex;
+}
+
+#services .content .head {
+  position: absolute;
+  left: -13rem;
+  top: 25rem;
+  transform: rotate(-90deg);
+  font-size: 1.5rem;
+}
+
+#services .content .body {
+  margin-left: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* gap: 1rem; */
+}
+
+#servicesBg-container {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  z-index: -40;
+  position: absolute;
+}
+
+#servicesBg {
+  position: absolute;
+  top: 0;
+  right: -5rem;
+  width: fit-content;
+  height: 100%;
+  object-fit: contain;
+  filter: brightness(0.7);
+}
+
+.img-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.img-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 1rem;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.img-group img {
+  border-radius: 8px;
+}
+
+.img-group img:hover {
+  scale: 1.1;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
+  cursor: pointer;
+}
+
+.service-img1 {
+  width: 20rem;
+  height: 10rem;
+}
+
+.service-img2 {
+  width: 20rem;
+  height: 10rem;
+}
+
+.service-img3 {
+  width: 20rem;
+  height: 10rem;
+}
+
+.service-img4 {
+  width: 20rem;
+  height: 10rem;
+}
+
+.service-img5 {
+  width: 20rem;
+  height: 10rem;
+}
+
+.service-img6 {
+  width: 20rem;
+  height: 10rem;
+}
